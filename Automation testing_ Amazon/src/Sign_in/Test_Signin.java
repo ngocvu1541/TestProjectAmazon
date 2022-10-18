@@ -2,16 +2,7 @@ package Sign_in;
 
 import org.testng.annotations.Test;
 
-//import java.io.FileInputStream;
-//import java.io.FileOutputStream;
-//import java.io.FileNotFoundException;
-//import java.io.FileOutputStream;
-//import java.io.FileOutputStream;
-//import java.io.FileInputStream;
-//import java.io.FileOutputStream;s
 import java.io.IOException;
-//import java.io.InputStream;
-//import java.io.OutputStream;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -25,7 +16,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-//import org.testng.Assert;
+
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
