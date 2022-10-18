@@ -13,68 +13,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class WriteExcel {
-	/*public void createHeaderRow(Sheet sheet) {
-        CellStyle cellStyle = sheet.getWorkbook().createCellStyle();
-        Font font = sheet.getWorkbook().createFont();
-        font.setBold(true);
-        font.setFontHeightInPoints((short) 16);
-        cellStyle.setFont(font);
-     
-        Row row = sheet.createRow(0);
-        Cell cellTestcase = row.createCell(1);
-        
-        cellTestcase.setCellStyle(cellStyle);
-        cellTestcase.setCellValue("TestCase");
-        
-        Cell cellUsername = row.createCell(2);
-        cellUsername.setCellStyle(cellStyle);
-        cellUsername.setCellValue("UserName");
-     
-        Cell cellPassword = row.createCell(3);
-        cellPassword.setCellStyle(cellStyle);
-        cellPassword.setCellValue("Password");
-     
-        Cell cellMessage = row.createCell(4);
-        cellMessage.setCellStyle(cellStyle);
-        cellMessage.setCellValue("Message");
-        
-        Cell cellResult = row.createCell(5);
-        cellResult.setCellStyle(cellStyle);
-        cellResult.setCellValue("Result");
-
-    }
-		
-	public Workbook getWorkbook(String excelFilePath)throws IOException {
-        Workbook workbook = null;
-     
-        if (excelFilePath.endsWith("xlsx")) {
-            workbook = new XSSFWorkbook();
-        } else if (excelFilePath.endsWith("xls")) {
-            workbook = new HSSFWorkbook();
-        } else {
-            throw new IllegalArgumentException("The specified file is not Excel file");
-        }
-     
-        return workbook;
-    }
-
-	private void writeHashMap (HashMap<String,Object> testResult, Row row) {
-		try (XSSFWorkbook workbook = new XSSFWorkbook()) {
 	
-			int colo=0; 
-			for (HashMap.Entry<String, Object> element : testResult.entrySet()) { 
-		        
-				Cell col =row.createCell(colo++); 
-                ((Row) col).createCell(0).setCellValue((String)element.getKey()); 
-                ((Row) col).createCell(1).setCellValue((String)element.getValue()); 
-	
-		    }
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} 
-	}
-	*/
 	public void export(List<HashMap<String, Object>> ResultExport, String excelFilePath) {
 		List<String> headers = Arrays.asList("IDtc", "username", "password", "message", "result");
 	    int currentRowNumber = 0;
