@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-18T16:44:18 ICT" name="Default suite" finished-at="2022-10-18T16:45:54 ICT" duration-ms="95571">
+    <groups>
+    </groups>
+    <test started-at="2022-10-18T16:44:18 ICT" name="Default test" finished-at="2022-10-18T16:45:54 ICT" duration-ms="95571">
+      <class name="Sign_in.Test_Signin">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Sign_in.Test_Signin@36902638]" started-at="2022-10-18T16:44:18 ICT" name="openBrowser" finished-at="2022-10-18T16:44:38 ICT" duration-ms="20191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="importTestData()[pri:0, instance:Sign_in.Test_Signin@36902638]" started-at="2022-10-18T16:44:38 ICT" name="importTestData" finished-at="2022-10-18T16:44:39 ICT" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importTestData -->
+        <test-method signature="SignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Sign_in.Test_Signin@36902638]" started-at="2022-10-18T16:44:39 ICT" name="SignIn" data-provider="data_signin" finished-at="2022-10-18T16:44:52 ICT" duration-ms="12709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ngocvu1541@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ngoc12345@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="SignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Sign_in.Test_Signin@36902638]" started-at="2022-10-18T16:44:52 ICT" name="SignIn" data-provider="data_signin" finished-at="2022-10-18T16:45:04 ICT" duration-ms="12109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ngocvu1541@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your password is incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="SignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Sign_in.Test_Signin@36902638]" started-at="2022-10-18T16:45:04 ICT" name="SignIn" data-provider="data_signin" finished-at="2022-10-18T16:45:18 ICT" duration-ms="13253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thietlam.2005@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[We cannot find an account with that email address]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="SignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Sign_in.Test_Signin@36902638]" started-at="2022-10-18T16:45:18 ICT" name="SignIn" data-provider="data_signin" finished-at="2022-10-18T16:45:28 ICT" duration-ms="10917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123.,]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[We cannot find an account with that email address]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="SignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Sign_in.Test_Signin@36902638]" started-at="2022-10-18T16:45:28 ICT" name="SignIn" data-provider="data_signin" finished-at="2022-10-18T16:45:38 ICT" duration-ms="9960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[We cannot find an account with that mobile number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="SignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Sign_in.Test_Signin@36902638]" started-at="2022-10-18T16:45:38 ICT" name="SignIn" data-provider="data_signin" finished-at="2022-10-18T16:45:50 ICT" duration-ms="11962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter your email or mobile phone number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="SignIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Sign_in.Test_Signin@36902638]" started-at="2022-10-18T16:45:50 ICT" name="SignIn" data-provider="data_signin" finished-at="2022-10-18T16:45:53 ICT" duration-ms="2450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ngocvu1541@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter your password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="export()[pri:2, instance:Sign_in.Test_Signin@36902638]" started-at="2022-10-18T16:45:53 ICT" name="export" finished-at="2022-10-18T16:45:54 ICT" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- export -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Sign_in.Test_Signin@36902638]" started-at="2022-10-18T16:45:54 ICT" name="closebrowser" finished-at="2022-10-18T16:45:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Sign_in.Test_Signin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
